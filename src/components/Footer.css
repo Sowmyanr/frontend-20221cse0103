@@ -1,0 +1,226 @@
+.footer {
+  background-color: var(--color-gray-50);
+  color: var(--color-gray-700);
+  margin-top: var(--space-16);
+}
+
+.footer-top {
+  padding: var(--space-10) 0;
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: var(--space-6) var(--space-8);
+}
+
+@media (min-width: 640px) {
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: 2fr repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer-grid {
+    grid-template-columns: 2fr repeat(4, 1fr);
+  }
+}
+
+.footer-column {
+  margin-bottom: var(--space-4);
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-gray-900);
+  margin: 0 0 var(--space-3) 0;
+}
+
+.footer-logo span {
+  color: var(--color-primary);
+}
+
+.footer-description {
+  margin-bottom: var(--space-4);
+  line-height: 1.6;
+  color: var(--color-gray-600);
+}
+
+.social-icons {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--color-gray-200);
+  color: var(--color-gray-700);
+  transition: all var(--transition-fast);
+}
+
+.social-icons a:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  transform: translateY(-2px);
+}
+
+.footer-column h4 {
+  color: var(--color-gray-900);
+  font-size: 1.1rem;
+  margin-bottom: var(--space-4);
+  font-weight: var(--font-weight-medium);
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: var(--space-2);
+}
+
+.footer-links a {
+  color: var(--color-gray-600);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.footer-links a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.newsletter-form {
+  margin-top: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.input-with-button {
+  display: flex;
+  position: relative;
+}
+
+.newsletter-form input {
+  width: 100%;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-gray-300);
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+}
+
+.newsletter-form input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(62, 107, 137, 0.1);
+}
+
+.newsletter-form button {
+  position: absolute;
+  right: var(--space-1);
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.newsletter-form button:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.small-text {
+  font-size: 0.75rem;
+  color: var(--color-gray-500);
+  margin-top: var(--space-2);
+}
+
+.small-text a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.small-text a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  padding: var(--space-6) 0;
+  font-size: 0.85rem;
+}
+
+.footer-bottom-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer-bottom-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+}
+
+.copyright {
+  color: var(--color-gray-500);
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: center;
+}
+
+.payment-methods img {
+  max-height: 24px;
+  width: auto;
+}
+
+.legal-links {
+  display: flex;
+  gap: var(--space-4);
+}
+
+.legal-links a {
+  color: var(--color-gray-600);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.legal-links a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
