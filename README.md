@@ -10,6 +10,11 @@ Company Values: Emphasis on sustainability, quality craftsmanship, thoughtful de
 Responsive Design: Optimized for a smooth user experience across devices.
 
 Screenshots
+![Image](https://github.com/user-attachments/assets/c0717432-6d46-430b-a5ba-c4fe1fb43c57)
+![Image](https://github.com/user-attachments/assets/2ebc5a8d-b52b-4097-a311-2698275dcb1e)
+![Image](https://github.com/user-attachments/assets/c0b53208-fe1b-4bfa-a71a-a8e6386920b8)
+![Image](https://github.com/user-attachments/assets/bc134e66-55ec-43c6-82cc-b55204371ce2)
+![Image](https://github.com/user-attachments/assets/ceb9c55e-ac80-47a6-9125-74836af27d58)
 Product Listing (Sofas & Sectionals)
 Product Listing (Tables)
 Shopping Cart
